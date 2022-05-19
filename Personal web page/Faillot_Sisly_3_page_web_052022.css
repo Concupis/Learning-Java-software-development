@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'arimoregular';
+    src: url('fonts/Arimo-Regular-webfont.eot');
+    src: url('fonts/Arimo-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Arimo-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Arimo-Regular-webfont.woff') format('woff'),
+         url('fonts/Arimo-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Arimo-Regular-webfont.svg#arimoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*
+{
+	font-family: 'arimoregular', Sans-Serif, Trebuchet MS, Verdana, Georgia, Times New Roman;
+}
+
+body
+{
+	width:			absolute;
+	height:			absolute;
+	max-width:		100%;
+	max-height:		100%;
+	min-width:		5%;
+	min-height:		5%;
+	margin:			auto;
+	position:		center;
+	
+}
+
+body:nth-child(1)
+{
+	flex:			35%;
+}
+
+body:nth-child(2)
+{
+	flex:			40%;
+}
+
+body:nth-child(3)
+{
+	flex:			25%;
+}
+
+.main_title
+{
+	font-size:		50px;
+	font-weight:	bold;
+}
+
+.secondary_title
+{
+	font-size:		35px;
+	font-weight:	bold;
+}
+
+.tertiary_title
+{
+	font-size:		35px;
+	font-weight:	normal;
+}
+
+.highlight
+{
+	background-color:	#86ECA5;
+	border:				0.2em	solid #86ECA5;
+	line-height:		1.5em;	
+	color:				#203966;
+}
+
+.simple_paragraph
+{
+	font-size:		25px;
+	font-weight:	normal;
+}
+
+
+header
+{
+	display:			flex;
+	flex-direction:		row;
+	background-color:	#6B52F6;
+	color:				#FFFFFF;
+	justify-content:	center;	
+}
+
+#intro_text
+{
+	margin-top:		100px;
+}
+
+#note
+{
+	font-style:	italic;
+	font-size:	20px;
+}
+
+#intro_avatar
+{
+	margin-left:	100px;
+}
+
+header sup
+{
+	color:			red;
+	font-weight:	normal;
+}
+
+
+section
+{
+	display:			flex;
+	flex-direction:		row;
+	background-color:	#FFFFFF;
+	color:				#203966;
+	justify-content:	center;
+}
+
+#section_text
+{
+	margin-top:		100px;
+	margin-bottom:	100px;
+}
+
+#section_image
+{
+	margin:	100px;
+}
+
+footer
+{
+	display:			flex;
+	flex-direction:		row;
+	background-color:	#203966;
+	color:				#FFFFFF;
+	justify-content:	center;
+}
+
+#footer_text
+{
+	margin-top:		100px;
+}
+
+#footer_image
+{
+	display:		flex;
+	flex-direction:	row;
+	margin-top:		120px;
+	margin-left:	200px;
+}
+
+.logo
+{
+	background-color:	#4376b9;
+	margin-left:		50px;
+	margin-bottom:		50px;
+}
+
